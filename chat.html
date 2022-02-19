@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Chat</title>
+		<link rel="stylesheet" type="text/css" href="style/blinking-cursor.css">
+		<link rel="stylesheet" type="text/css" href="style/chat.css">
+		<style>
+			.hide {
+                animation: fadeOut 2s forwards;
+                animation-delay: 15s;
+			}
+
+            @keyframes fadeOut {
+                from {opacity: 1;}
+                to {opacity: 0;}
+            }
+		</style>
+	</head>
+	<body>
+		<div id="chat" class="chat">
+			<!--<span id="emptyChat" class="blinking-cursor">|</span>-->
+		</div>
+	</body>
+	<script src="scripts/config.js"></script>
+	<script src="scripts/chat.js"></script>
+</html>

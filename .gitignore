@@ -1,0 +1,7 @@
+# IntelliJ project files
+.idea
+*.iml
+
+# Custom
+test.html
+config.js
